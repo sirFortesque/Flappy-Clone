@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class BGLooper : MonoBehaviour {
-
-	int BGnum = 6;
+	
 	float up = 0.8430938f;
 	float down = -0.003243029f;
+    int BGnum = 6;
 
 	void Start() {
 		GameObject[] tubes = GameObject.FindGameObjectsWithTag("tube");

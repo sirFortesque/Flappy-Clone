@@ -118,7 +118,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0
+  bundleVersion: 1.0.1484.4923
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -153,7 +153,8 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.Pompany.FlappyClone
-    Standalone: FlappyClone
+    Standalone: com.Pompany.FlappyClone
+    WebGL: com.Pompany.FlappyClone
     iOS: com.Company.ProductName
     tvOS: com.Company.ProductName
   buildNumber:
@@ -650,7 +651,10 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 1
   webGLLinkerTarget: 1
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: 
+    7: 
+    13: 
   platformArchitecture:
     iOS: 2
   scriptingBackend:
